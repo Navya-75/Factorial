@@ -3,7 +3,7 @@ function calculateFactorial() {
   const result = document.getElementById("result");
 
   if (isNaN(num) || num < 0) {
-    result.textContent = "❗ Please enter a valid non-negative number.";
+    result.textContent = "Please enter a valid non-negative number.";
     return;
   }
 
